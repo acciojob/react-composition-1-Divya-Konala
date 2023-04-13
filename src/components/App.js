@@ -16,7 +16,7 @@ const App = () => {
           }
         </ul>
         {
-          (currTab!==undefined && <Tab tab={currTab} />)
+          currTab!==undefined && <Tab tab={currTab} />
         }
     </div>
   )
